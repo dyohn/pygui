@@ -136,7 +136,7 @@ class DataRecordForm(tk.Frame):
         self.inputs["Light"].grid(row=0, column=1)
         self.inputs["Temperature"] = LabelInput(
             environmentinfo,
-            "Tenmperature (°C)",
+            "Temperature (°C)",
             input_class=tk.Spinbox,
             input_var=tk.DoubleVar(),
             input_args={"from_": 4, "to": 40, "increment": 0.01},
